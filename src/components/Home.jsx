@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="home-container">
-      {/* Hero Section */}
+  
       <section className="hero-section">
         <div className="hero-overlay">
           <div className="hero-content">
@@ -29,7 +29,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Features Section */}
+ 
       <section className="features-section">
         <div className="container">
           <h2 className="section-title">למה לבחור בנו?</h2>
@@ -58,7 +58,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
+
       <section className="stats-section">
         <div className="container">
           <div className="stats-grid">
@@ -71,7 +71,7 @@ const Home = () => {
               <div className="stat-label">מוצרים איכותיים</div>
             </div>
             <div className="stat-item">
-              <div className="stat-number">24/7</div>
+              <div className="stat-number">24/6</div>
               <div className="stat-label">שירות לקוחות</div>
             </div>
             <div className="stat-item">
@@ -82,7 +82,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
+   
       <section className="cta-section">
         <div className="container">
           <div className="cta-content">

@@ -11,6 +11,7 @@ import {MyProvider} from './contex';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Login from './components/Login';
 
+
 function App() {
   const [cart, setCart] = useState([]);
   const [userName, setUserName] = useState("");
@@ -61,7 +62,7 @@ function App() {
       category: "פירות",
       price: 22.90,
       unit: "אריזה 200 גרם",
-      image: "/img/blueberry.jpg",
+      image: "/img/blueberry.webp",
       description: "סופר פוד טבעי עם ריכוז גבוה של אנטיאוקסידנטים ותרכובות אנטי דלקתיות. מושלמות לשייקים, יוגורטים ואכילה ישירה",
       inStock: true,
       premium: true

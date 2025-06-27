@@ -5,9 +5,8 @@ function Navbar({userName, userRole, onLogout}) {
     return (
         <nav className="navbar">
             <div className="navbar-container">
-                <Link to="/" className="navbar-brand">
-                    חנות טבעית
-                </Link>
+               
+                <img src="/img/logo.png" alt="Logo" className="logo" />
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <Link to="/" className="nav-link">בית</Link>
@@ -22,8 +21,8 @@ function Navbar({userName, userRole, onLogout}) {
                 </ul>
             </div>
             <div className="user-info">
-                <span>שלום {userName} ({userRole})</span>
                 <button onClick={onLogout}>התנתק</button>
+                <span>  שלום {userName}</span>
             </div>
         </nav>
     )
